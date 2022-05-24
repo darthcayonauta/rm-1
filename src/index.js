@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MyPage from './pages/MyPage';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.js'
+import 'jquery/dist/jquery.slim.js'
+import 'popper.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MyPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
